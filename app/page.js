@@ -1,12 +1,13 @@
 import React from 'react'
+import Home from '@/components/Home'
 
 export const metadata = {
-  title : "Homepage"
+  title : "Course | Homepage"
 }
 
 function Homepage() {
   return (
-    <div>Homepage</div>
+    <Home />
   )
 }
 

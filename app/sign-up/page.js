@@ -1,9 +1,14 @@
 import React from 'react'
+import SignUp from '@/components/SignUp'
 
-const SignUp = () => {
+export const metadata = {
+  title : "Sign-up Page"
+}
+
+const SignUpRoute = () => {
   return (
-    <div>Welcome to SignUp</div>
+    <SignUp />
   )
 }
 
-export default SignUp
+export default SignUpRoute

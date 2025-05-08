@@ -1,9 +1,13 @@
+import Login from '@/components/Login'
 import React from 'react'
 
-const Login = () => {
+export const metadata = {
+    title : "Course | Login page"
+}
+const LoginRoute = () => {
   return (
-    <div>Login</div>
+    <Login />
   )
 }
 
-export default Login
+export default LoginRoute
